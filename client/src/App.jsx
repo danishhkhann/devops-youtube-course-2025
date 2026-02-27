@@ -12,7 +12,7 @@ function App() {
   const [error, setError] = useState(null);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
-  //Hi danish
+  //Fetch Tasks
   useEffect(() => {
     fetchTasks();
   }, []);
